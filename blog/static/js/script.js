@@ -5,4 +5,10 @@ $(document).ready(function(){
   $('input').blur(function(){
     $(this).css('background-color','lightblue');
   });
+
+  $(".accordion").on("click", ".accordion-header", function() {
+ 		$(this).toggleClass("active").next().slideToggle();
+	});
+
+
 });

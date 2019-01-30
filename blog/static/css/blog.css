@@ -49,3 +49,44 @@ p{
 	background-color:orange;
 	font-size: 20px;
 }
+
+
+body {
+  background-color: lightblue;
+
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+}
+
+.accordion {
+	max-width: 400px;
+	background: white;
+	margin: 0 auto;
+  box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+	border-bottom: 1px solid #DDE0E7;
+	color: #2a313a;
+	cursor: pointer;
+	font-weight: 700;
+	padding: 1.5rem;
+}
+
+.accordion-header:hover {
+	background: #F6F7F9;
+}
+
+.accordion-content {
+	display: none;
+	border-bottom: 1px solid #DDE0E7;
+	background: #F6F7F9;
+	padding: 1.5rem;
+	color: #4a5666;
+}
+
