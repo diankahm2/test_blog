@@ -20,6 +20,16 @@
                     <div class="date">
 				<p>Hello nurtas</p>
 				<p>Are you stupid</p>
+
+				{% for post in posts %}
+					<div>
+					<p>published: {{ post.published_date }}</p>
+					    <h2><a href="">{{ post.title }}</a></h2>
+					    <p>{{ post.text|linebreaksbr }}</p>
+					</div>
+				    {% endfor %}
+
+
                     </div>
 			<a href="main"><h1>Press to know answer</h1></a>
                 </div>
