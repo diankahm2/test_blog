@@ -7,4 +7,4 @@ def post_list(request):
 
 
 def main(request):
-	return render(request, 'blog/main.html', {})
+	return render(request, 'blog/main.html', {})\
